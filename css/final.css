@@ -1,0 +1,32 @@
+.final {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(180deg, var(--light-pink) 0%, var(--light-gray) 100%);
+    box-sizing: border-box;
+    padding: 130px 20% 1px 20%;
+}
+
+.final-title {
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: "AvenirBold";
+}
+
+.final-text {
+    margin: 2rem 0;
+    text-align: justify;
+}
+
+.final-text a {
+    text-decoration: none;
+    color: darkmagenta;
+}
+
+.final-smiling-wrapper {
+    text-align: center;
+}
+
+.final-smiling {
+    width: 250px;
+    max-width: 100%;
+}

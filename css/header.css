@@ -1,0 +1,100 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    box-sizing: border-box;
+    height: 115px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 10;
+    color: white;
+    position: fixed;
+}
+
+.header-shakira-name {
+    height: 25px;
+}
+
+.menu-button {
+    display: none;
+}
+
+.navigation-links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    position: relative;
+}
+
+.links {
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 0;
+    position: relative;
+    font-family: "AvenirBold";
+}
+
+.links::before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 5px;
+    width: 0%;
+    background-color: var(--light-pink);
+    bottom: 0;
+    transition: 0.2s;
+}
+
+.links:hover::before {
+    width: 100%;
+}
+
+@media screen and (max-width: 640px) {
+    .navigation {
+        height: 110vh;
+        width: 100%;
+        position: fixed;
+        top: -130%;
+        left: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        text-align: center;
+        transition: .5s;
+        text-decoration: none;
+        z-index: 1;
+    }
+
+    .navigation--active {
+        top: 0;
+    }
+
+    .navigation-links {
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        
+    }
+
+    .links {
+        color: black;
+    }
+
+    .links::before {
+        content: "";
+        display: none;
+    }
+
+    .menu-button {
+        display: block;
+        z-index: 10;
+        border: 0;
+        background-color: transparent;
+        font-size: 1.5em;
+        color: var(--light-pink);
+    }
+}

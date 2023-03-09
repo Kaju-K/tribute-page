@@ -1,0 +1,64 @@
+.reasons {
+    position: relative;
+    min-height: 100vh;
+    background: linear-gradient(180deg, var(--light-pink) 0%, var(--light-gray) 100%);
+    box-sizing: border-box;
+    padding: 130px 20% 1px 20%;
+}
+
+.reasons-title {
+    font-size: 1.8rem;
+    font-family: "AvenirBold";
+    text-align: center;
+}
+
+.reasons-text {
+    margin: 2rem 0;
+    text-align: justify;
+}
+
+.reasons-text a {
+    text-decoration: none;
+    color: darkmagenta;
+}
+
+.logo-fundacion {
+    width: 281px;
+    max-width: 100%;
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.video-fundacion-wrapper {
+    text-align: center;
+}
+
+.video-fundacion {
+    float: right;
+    width: 210px;
+    max-width: 100%;
+    margin: 0 0 15px 15px;
+}
+
+.reasons-no {
+    font-size: 2rem;
+    font-family: "AvenirBold";
+}
+
+.reasons-influential-wrapper {
+    text-align: center;
+}
+
+.reasons-influential {
+    width: 711px;
+    max-width: 100%;
+}
+
+.reasons-smiling-wrapper {
+    text-align: center;
+}
+
+.reasons-smiling {
+    width: 530px;
+    max-width: 100%;
+}
