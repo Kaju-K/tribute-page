@@ -23,7 +23,7 @@
 }
 
 .logo-fundacion {
-    width: 281px;
+    width: 290px;
     max-width: 100%;
     float: left;
     margin: 0 15px 15px 0;
@@ -61,4 +61,10 @@
 .reasons-smiling {
     width: 530px;
     max-width: 100%;
+}
+
+@media screen and (max-width:640px) {
+    .reasons {
+        padding: 130px 10% 1px 10%;
+    }
 }

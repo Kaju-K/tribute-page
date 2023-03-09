@@ -37,3 +37,9 @@
     float: right;
     margin: 0 0 15px 15px;
 }
+
+@media screen and (max-width:640px) {
+    .about {
+        padding: 130px 10% 1px 10%;
+    }
+}

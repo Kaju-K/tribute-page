@@ -38,3 +38,9 @@
     width: 225px;
     max-width: 100%;
 }
+
+@media screen and (max-width:640px) {
+    .dislike {
+        padding: 130px 10% 1px 10%;
+    }
+}

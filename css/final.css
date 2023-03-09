@@ -30,3 +30,9 @@
     width: 250px;
     max-width: 100%;
 }
+
+@media screen and (max-width:640px) {
+    .final {
+        padding: 130px 10% 1px 10%;
+    }
+}
