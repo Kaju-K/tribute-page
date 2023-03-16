@@ -1,9 +1,8 @@
 .final {
     position: relative;
-    min-height: 100vh;
     background: linear-gradient(180deg, var(--light-pink) 0%, var(--light-gray) 100%);
     box-sizing: border-box;
-    padding: 130px 20% 1px 20%;
+    padding: 130px 20% 100px 20%;
 }
 
 .final-title {

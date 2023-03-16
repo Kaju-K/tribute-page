@@ -1,5 +1,5 @@
 .about {
-    min-height: 100vh;
+    /* min-height: 100vh; */
     width: 100%;
     position: relative;
     background: linear-gradient(180deg, var(--light-gray) 0%, var(--light-pink) 100%);
@@ -36,6 +36,15 @@
     max-width: 100%;
     float: right;
     margin: 0 0 15px 15px;
+}
+
+@media screen and (max-width:850px) {
+    .shakira-smile {
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
 }
 
 @media screen and (max-width:640px) {
